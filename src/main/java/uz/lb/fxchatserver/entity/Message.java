@@ -7,43 +7,42 @@ import lombok.*;
 import lombok.experimental.FieldDefaults;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
+import uz.lb.fxchatserver.enums.GeneralStatus;
 
-import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-@Entity
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 @Builder
+@Entity(name = "Message")
+@AllArgsConstructor
+@NoArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @JsonInclude(value = JsonInclude.Include.NON_EMPTY, content = JsonInclude.Include.NON_NULL)
-
-public class Attachment implements Serializable {
+public class Message {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     Long id;
 
-    @Column(nullable = false)
-    String fileName;
-
-    String hashId;
-
-    String contentType;
-
-    String extension;
-
-    String uploadPath;
-
-    String link;
-
-    Float fileSize;
+    @Column(unique = true, nullable = false, name = "content")
+    String content;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
+
+    @Column(name = "status")
+    @JsonIgnore
+    @Enumerated(EnumType.STRING)
+    @Builder.Default
+    GeneralStatus status = GeneralStatus.ACTIVE;
+
+    @JsonIgnore
+    @Column(name = "visible")
+    @Builder.Default
+    Boolean visible = Boolean.TRUE;
 
     @JsonIgnore
     @CreationTimestamp
@@ -52,5 +51,4 @@ public class Attachment implements Serializable {
     @JsonIgnore
     @UpdateTimestamp
     Date updatedAt;
-
 }

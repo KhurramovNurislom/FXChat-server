@@ -13,6 +13,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import uz.lb.fxchatserver.config.CustomUserDetails;
+import uz.lb.fxchatserver.crypto.SHA256;
 import uz.lb.fxchatserver.dto.ResultDTO;
 import uz.lb.fxchatserver.dto.auth.AuthRequestDTO;
 import uz.lb.fxchatserver.dto.auth.AuthResponseDTO;
@@ -71,7 +72,7 @@ public class UserService implements IUserService {
         }
         return ResponseEntity.status(HttpStatus.OK).body(resultDTO.success(userRepository.save(User.builder()
                 .login(userPayload.getLogin())
-                .password((userPayload.getPassword()))
+                .password(SHA256.getSHA256Hash((userPayload.getPassword())))
                 .role(AccountRoleEnums.ROLE_USER)
                 .build())));
     }
@@ -137,7 +138,7 @@ public class UserService implements IUserService {
 
     private ResponseEntity<ResultDTO> getResultDTOResponseEntity(UserPayload userPayload, User user) {
         user.setLogin(userPayload.getLogin());
-        user.setPassword(userPayload.getPassword());
+        user.setPassword(SHA256.getSHA256Hash(userPayload.getPassword()));
         userRepository.save(user);
         return ResponseEntity.status(HttpStatus.OK).body(resultDTO.success(user));
     }

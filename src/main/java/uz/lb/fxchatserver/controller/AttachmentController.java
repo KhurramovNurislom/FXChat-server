@@ -10,9 +10,9 @@ import org.springframework.web.multipart.MultipartFile;
 import uz.lb.fxchatserver.dto.ResultDTO;
 import uz.lb.fxchatserver.service.implement.AttachmentService;
 
-@Slf4j
+
 @RestController
-@RequestMapping("/server/file")
+@RequestMapping("/fx-chat/file")
 @RequiredArgsConstructor
 public class AttachmentController {
 

@@ -18,6 +18,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import uz.lb.fxchatserver.crypto.SHA256;
 
 import java.util.Arrays;
 
@@ -33,8 +34,8 @@ public class SecurityConfig {
     private final UserDetailsService userDetailsService;
 
     public static final String[] AUTH_WHITELIST = {
-            "/server/auth",
-            "/server/user/registration"
+            "/fx-chat/auth",
+            "/fx-chat/user/registration"
     };
 
     @Bean
@@ -90,8 +91,8 @@ public class SecurityConfig {
 
             @Override
             public boolean matches(CharSequence rawPassword, String encodedPassword) {
-                String gost3411 = rawPassword.toString();
-                return gost3411.equals(encodedPassword);
+                String sha256 = SHA256.getSHA256Hash(rawPassword.toString());
+                return sha256.equals(encodedPassword);
             }
         };
     }

@@ -43,3 +43,623 @@ This generated password is for development use only. Your security configuration
 2025-05-05 23:17:41 INFO  [SpringApplicationShutdownHook] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:660] : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-05-05 23:17:41 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:349] : HikariPool-1 - Shutdown initiated...
 2025-05-05 23:17:41 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:351] : HikariPool-1 - Shutdown completed.
+2025-05-07 22:37:37 INFO  [main] -  u.l.f.FxChatServerApplicationTests [StartupInfoLogger.java:53] : Starting FxChatServerApplicationTests using Java 20.0.2 with PID 17695 (started by programmer in /media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server)
+2025-05-07 22:37:37 INFO  [main] -  u.l.f.FxChatServerApplicationTests [SpringApplication.java:652] : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 22:37:37 DEBUG [main] -  o.s.w.c.s.GenericWebApplicationContext [AbstractApplicationContext.java:674] : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@47a64f7d
+2025-05-07 22:37:38 INFO  [main] -  u.l.f.FxChatServerApplicationTests [StartupInfoLogger.java:53] : Starting FxChatServerApplicationTests using Java 20.0.2 with PID 17726 (started by programmer in /media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server)
+2025-05-07 22:37:38 INFO  [main] -  u.l.f.FxChatServerApplicationTests [SpringApplication.java:652] : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 22:37:38 DEBUG [main] -  o.s.w.c.s.GenericWebApplicationContext [AbstractApplicationContext.java:674] : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@47a64f7d
+2025-05-07 22:37:38 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 22:37:38 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] : Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2025-05-07 22:37:39 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 22:37:39 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] : Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2025-05-07 22:37:39 INFO  [main] -  o.h.jpa.internal.util.LogHelper [LogHelper.java:31] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 22:37:39 INFO  [main] -  org.hibernate.Version [Version.java:44] : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 22:37:39 INFO  [main] -  o.h.c.i.RegionFactoryInitiator [RegionFactoryInitiator.java:50] : HHH000026: Second-level cache disabled
+2025-05-07 22:37:39 INFO  [main] -  o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 22:37:39 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:109] : HikariPool-1 - Starting...
+2025-05-07 22:37:39 INFO  [main] -  o.h.jpa.internal.util.LogHelper [LogHelper.java:31] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 22:37:40 INFO  [main] -  org.hibernate.Version [Version.java:44] : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 22:37:40 INFO  [main] -  o.h.c.i.RegionFactoryInitiator [RegionFactoryInitiator.java:50] : HHH000026: Second-level cache disabled
+2025-05-07 22:37:40 INFO  [main] -  o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 22:37:40 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:109] : HikariPool-1 - Starting...
+2025-05-07 22:37:40 INFO  [main] -  com.zaxxer.hikari.pool.HikariPool [HikariPool.java:554] : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@56478522
+2025-05-07 22:37:40 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:122] : HikariPool-1 - Start completed.
+2025-05-07 22:37:40 WARN  [main] -  org.hibernate.orm.deprecation [DialectFactoryImpl.java:153] : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 22:37:40 INFO  [main] -  o.hibernate.orm.connections.pooling [JdbcEnvironmentInitiator.java:157] : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 22:37:40 INFO  [main] -  com.zaxxer.hikari.pool.HikariPool [HikariPool.java:554] : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60ae7cf2
+2025-05-07 22:37:40 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:122] : HikariPool-1 - Start completed.
+2025-05-07 22:37:40 WARN  [main] -  org.hibernate.orm.deprecation [DialectFactoryImpl.java:153] : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 22:37:40 INFO  [main] -  o.hibernate.orm.connections.pooling [JdbcEnvironmentInitiator.java:157] : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 22:37:41 INFO  [main] -  o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:59] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 22:37:41 INFO  [main] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:447] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 22:37:41 INFO  [main] -  o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:59] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 22:37:41 INFO  [main] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:447] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 22:37:41 INFO  [main] -  o.s.d.j.r.query.QueryEnhancerFactory [QueryEnhancerFactory.java:49] : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-07 22:37:42 INFO  [main] -  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [InitializeAuthenticationProviderBeanManagerConfigurer.java:80] : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-07 22:37:42 WARN  [main] -  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [InitializeUserDetailsBeanManagerConfigurer.java:73] : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-05-07 22:37:42 INFO  [main] -  o.s.d.j.r.query.QueryEnhancerFactory [QueryEnhancerFactory.java:49] : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-07 22:37:42 INFO  [main] -  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [InitializeAuthenticationProviderBeanManagerConfigurer.java:80] : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-07 22:37:42 WARN  [main] -  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [InitializeUserDetailsBeanManagerConfigurer.java:73] : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-05-07 22:37:42 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:366] : 18 mappings in 'requestMappingHandlerMapping'
+2025-05-07 22:37:42 DEBUG [main] -  o.s.w.s.h.SimpleUrlHandlerMapping [SimpleUrlHandlerMapping.java:187] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-07 22:37:42 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:366] : 18 mappings in 'requestMappingHandlerMapping'
+2025-05-07 22:37:42 DEBUG [main] -  o.s.w.s.h.SimpleUrlHandlerMapping [SimpleUrlHandlerMapping.java:187] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-07 22:37:42 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:666] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-07 22:37:42 DEBUG [main] -  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:336] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-07 22:37:43 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:666] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-07 22:37:43 INFO  [main] -  u.l.f.FxChatServerApplicationTests [StartupInfoLogger.java:59] : Started FxChatServerApplicationTests in 6.047 seconds (process running for 7.043)
+2025-05-07 22:37:43 DEBUG [main] -  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:336] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-07 22:37:43 INFO  [main] -  u.l.f.FxChatServerApplicationTests [StartupInfoLogger.java:59] : Started FxChatServerApplicationTests in 5.394 seconds (process running for 6.669)
+2025-05-07 22:37:43 DEBUG [SpringApplicationShutdownHook] -  o.s.w.c.s.GenericWebApplicationContext [AbstractApplicationContext.java:1158] : Closing org.springframework.web.context.support.GenericWebApplicationContext@47a64f7d, started on Wed May 07 22:37:37 UZT 2025
+2025-05-07 22:37:43 INFO  [SpringApplicationShutdownHook] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:660] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 22:37:43 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:349] : HikariPool-1 - Shutdown initiated...
+2025-05-07 22:37:43 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:351] : HikariPool-1 - Shutdown completed.
+2025-05-07 22:37:44 DEBUG [SpringApplicationShutdownHook] -  o.s.w.c.s.GenericWebApplicationContext [AbstractApplicationContext.java:1158] : Closing org.springframework.web.context.support.GenericWebApplicationContext@47a64f7d, started on Wed May 07 22:37:38 UZT 2025
+2025-05-07 22:37:44 INFO  [SpringApplicationShutdownHook] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:660] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 22:37:44 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:349] : HikariPool-1 - Shutdown initiated...
+2025-05-07 22:37:44 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:351] : HikariPool-1 - Shutdown completed.
+2025-05-07 22:37:55 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:53] : Starting FxChatServerApplication using Java 20.0.2 with PID 17930 (/media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server/target/classes started by programmer in /media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server)
+2025-05-07 22:37:55 INFO  [main] -  u.l.f.FxChatServerApplication [SpringApplication.java:652] : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 22:37:56 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 22:37:56 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] : Finished Spring Data repository scanning in 38 ms. Found 3 JPA repository interfaces.
+2025-05-07 22:37:56 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:111] : Tomcat initialized with port 8096 (http)
+2025-05-07 22:37:56 INFO  [main] -  o.a.catalina.core.StandardService [DirectJDKLog.java:168] : Starting service [Tomcat]
+2025-05-07 22:37:56 INFO  [main] -  o.a.catalina.core.StandardEngine [DirectJDKLog.java:168] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-07 22:37:56 INFO  [main] -  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:168] : Initializing Spring embedded WebApplicationContext
+2025-05-07 22:37:56 INFO  [main] -  o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] : Root WebApplicationContext: initialization completed in 1007 ms
+2025-05-07 22:37:56 INFO  [main] -  o.h.jpa.internal.util.LogHelper [LogHelper.java:31] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 22:37:56 INFO  [main] -  org.hibernate.Version [Version.java:44] : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 22:37:56 INFO  [main] -  o.h.c.i.RegionFactoryInitiator [RegionFactoryInitiator.java:50] : HHH000026: Second-level cache disabled
+2025-05-07 22:37:57 INFO  [main] -  o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 22:37:57 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:109] : HikariPool-1 - Starting...
+2025-05-07 22:37:57 INFO  [main] -  com.zaxxer.hikari.pool.HikariPool [HikariPool.java:554] : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b33fff9
+2025-05-07 22:37:57 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:122] : HikariPool-1 - Start completed.
+2025-05-07 22:37:57 WARN  [main] -  org.hibernate.orm.deprecation [DialectFactoryImpl.java:153] : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 22:37:57 INFO  [main] -  o.hibernate.orm.connections.pooling [JdbcEnvironmentInitiator.java:157] : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 22:37:58 INFO  [main] -  o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:59] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 22:37:58 INFO  [main] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:447] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 22:37:58 INFO  [main] -  o.s.d.j.r.query.QueryEnhancerFactory [QueryEnhancerFactory.java:49] : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-07 22:37:58 INFO  [main] -  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [InitializeAuthenticationProviderBeanManagerConfigurer.java:80] : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-07 22:37:58 WARN  [main] -  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [InitializeUserDetailsBeanManagerConfigurer.java:73] : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-05-07 22:37:58 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:366] : 18 mappings in 'requestMappingHandlerMapping'
+2025-05-07 22:37:58 DEBUG [main] -  o.s.w.s.h.SimpleUrlHandlerMapping [SimpleUrlHandlerMapping.java:187] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-07 22:37:58 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:666] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-07 22:37:58 DEBUG [main] -  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:336] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-07 22:37:59 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:243] : Tomcat started on port 8096 (http) with context path '/'
+2025-05-07 22:37:59 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:59] : Started FxChatServerApplication in 3.81 seconds (process running for 4.432)
+2025-05-07 22:52:34 INFO  [http-nio-8096-exec-1] -  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:168] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-07 22:52:34 INFO  [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:532] : Initializing Servlet 'dispatcherServlet'
+2025-05-07 22:52:34 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:533] : Detected StandardServletMultipartResolver
+2025-05-07 22:52:34 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:557] : Detected AcceptHeaderLocaleResolver
+2025-05-07 22:52:34 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:583] : Detected FixedThemeResolver
+2025-05-07 22:52:34 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:733] : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6c4c32ff
+2025-05-07 22:52:34 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:797] : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3bfead8d
+2025-05-07 22:52:34 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:549] : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-05-07 22:52:34 INFO  [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:554] : Completed initialization in 7 ms
+2025-05-07 22:54:00 INFO  [SpringApplicationShutdownHook] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:54] : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-07 22:54:00 INFO  [tomcat-shutdown] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:76] : Graceful shutdown complete
+2025-05-07 22:54:00 INFO  [SpringApplicationShutdownHook] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:660] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 22:54:00 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:349] : HikariPool-1 - Shutdown initiated...
+2025-05-07 22:54:00 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:351] : HikariPool-1 - Shutdown completed.
+2025-05-07 22:54:04 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:53] : Starting FxChatServerApplication using Java 20.0.2 with PID 19197 (/media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server/target/classes started by programmer in /media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server)
+2025-05-07 22:54:04 INFO  [main] -  u.l.f.FxChatServerApplication [SpringApplication.java:652] : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 22:54:04 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 22:54:04 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] : Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2025-05-07 22:54:05 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:111] : Tomcat initialized with port 8096 (http)
+2025-05-07 22:54:05 INFO  [main] -  o.a.catalina.core.StandardService [DirectJDKLog.java:168] : Starting service [Tomcat]
+2025-05-07 22:54:05 INFO  [main] -  o.a.catalina.core.StandardEngine [DirectJDKLog.java:168] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-07 22:54:05 INFO  [main] -  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:168] : Initializing Spring embedded WebApplicationContext
+2025-05-07 22:54:05 INFO  [main] -  o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] : Root WebApplicationContext: initialization completed in 1029 ms
+2025-05-07 22:54:05 INFO  [main] -  o.h.jpa.internal.util.LogHelper [LogHelper.java:31] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 22:54:05 INFO  [main] -  org.hibernate.Version [Version.java:44] : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 22:54:05 INFO  [main] -  o.h.c.i.RegionFactoryInitiator [RegionFactoryInitiator.java:50] : HHH000026: Second-level cache disabled
+2025-05-07 22:54:05 INFO  [main] -  o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 22:54:05 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:109] : HikariPool-1 - Starting...
+2025-05-07 22:54:05 INFO  [main] -  com.zaxxer.hikari.pool.HikariPool [HikariPool.java:554] : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e1a9173
+2025-05-07 22:54:05 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:122] : HikariPool-1 - Start completed.
+2025-05-07 22:54:05 WARN  [main] -  org.hibernate.orm.deprecation [DialectFactoryImpl.java:153] : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 22:54:05 INFO  [main] -  o.hibernate.orm.connections.pooling [JdbcEnvironmentInitiator.java:157] : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 22:54:06 INFO  [main] -  o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:59] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 22:54:06 INFO  [main] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:447] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 22:54:06 INFO  [main] -  o.s.d.j.r.query.QueryEnhancerFactory [QueryEnhancerFactory.java:49] : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-07 22:54:06 INFO  [main] -  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [InitializeAuthenticationProviderBeanManagerConfigurer.java:80] : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-07 22:54:06 WARN  [main] -  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [InitializeUserDetailsBeanManagerConfigurer.java:73] : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-05-07 22:54:07 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:366] : 18 mappings in 'requestMappingHandlerMapping'
+2025-05-07 22:54:07 DEBUG [main] -  o.s.w.s.h.SimpleUrlHandlerMapping [SimpleUrlHandlerMapping.java:187] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-07 22:54:07 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:666] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-07 22:54:07 DEBUG [main] -  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:336] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-07 22:54:07 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:243] : Tomcat started on port 8096 (http) with context path '/'
+2025-05-07 22:54:07 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:59] : Started FxChatServerApplication in 3.928 seconds (process running for 4.448)
+2025-05-07 22:57:52 INFO  [SpringApplicationShutdownHook] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:54] : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-07 22:57:52 INFO  [tomcat-shutdown] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:76] : Graceful shutdown complete
+2025-05-07 22:57:52 INFO  [SpringApplicationShutdownHook] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:660] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 22:57:52 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:349] : HikariPool-1 - Shutdown initiated...
+2025-05-07 22:57:52 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:351] : HikariPool-1 - Shutdown completed.
+2025-05-07 22:57:55 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:53] : Starting FxChatServerApplication using Java 20.0.2 with PID 19794 (/media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server/target/classes started by programmer in /media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server)
+2025-05-07 22:57:55 INFO  [main] -  u.l.f.FxChatServerApplication [SpringApplication.java:652] : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 22:57:55 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 22:57:55 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] : Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2025-05-07 22:57:56 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:111] : Tomcat initialized with port 8096 (http)
+2025-05-07 22:57:56 INFO  [main] -  o.a.catalina.core.StandardService [DirectJDKLog.java:168] : Starting service [Tomcat]
+2025-05-07 22:57:56 INFO  [main] -  o.a.catalina.core.StandardEngine [DirectJDKLog.java:168] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-07 22:57:56 INFO  [main] -  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:168] : Initializing Spring embedded WebApplicationContext
+2025-05-07 22:57:56 INFO  [main] -  o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] : Root WebApplicationContext: initialization completed in 1137 ms
+2025-05-07 22:57:56 INFO  [main] -  o.h.jpa.internal.util.LogHelper [LogHelper.java:31] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 22:57:56 INFO  [main] -  org.hibernate.Version [Version.java:44] : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 22:57:56 INFO  [main] -  o.h.c.i.RegionFactoryInitiator [RegionFactoryInitiator.java:50] : HHH000026: Second-level cache disabled
+2025-05-07 22:57:56 INFO  [main] -  o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 22:57:56 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:109] : HikariPool-1 - Starting...
+2025-05-07 22:57:57 INFO  [main] -  com.zaxxer.hikari.pool.HikariPool [HikariPool.java:554] : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ca0b9b1
+2025-05-07 22:57:57 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:122] : HikariPool-1 - Start completed.
+2025-05-07 22:57:57 WARN  [main] -  org.hibernate.orm.deprecation [DialectFactoryImpl.java:153] : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 22:57:57 INFO  [main] -  o.hibernate.orm.connections.pooling [JdbcEnvironmentInitiator.java:157] : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 22:57:57 INFO  [main] -  o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:59] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 22:57:57 INFO  [main] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:447] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 22:57:58 INFO  [main] -  o.s.d.j.r.query.QueryEnhancerFactory [QueryEnhancerFactory.java:49] : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-07 22:57:58 INFO  [main] -  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [InitializeAuthenticationProviderBeanManagerConfigurer.java:80] : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-07 22:57:58 WARN  [main] -  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [InitializeUserDetailsBeanManagerConfigurer.java:73] : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-05-07 22:57:58 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:366] : 18 mappings in 'requestMappingHandlerMapping'
+2025-05-07 22:57:58 DEBUG [main] -  o.s.w.s.h.SimpleUrlHandlerMapping [SimpleUrlHandlerMapping.java:187] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-07 22:57:58 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:666] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-07 22:57:58 DEBUG [main] -  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:336] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-07 22:57:58 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:243] : Tomcat started on port 8096 (http) with context path '/'
+2025-05-07 22:57:58 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:59] : Started FxChatServerApplication in 3.997 seconds (process running for 4.809)
+2025-05-07 23:00:30 INFO  [http-nio-8096-exec-2] -  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:168] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-07 23:00:30 INFO  [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:532] : Initializing Servlet 'dispatcherServlet'
+2025-05-07 23:00:30 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:533] : Detected StandardServletMultipartResolver
+2025-05-07 23:00:30 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:557] : Detected AcceptHeaderLocaleResolver
+2025-05-07 23:00:30 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:583] : Detected FixedThemeResolver
+2025-05-07 23:00:30 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:733] : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7305a443
+2025-05-07 23:00:30 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:797] : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6c4c32ff
+2025-05-07 23:00:30 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:549] : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-05-07 23:00:30 INFO  [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:554] : Completed initialization in 6 ms
+2025-05-07 23:03:12 INFO  [SpringApplicationShutdownHook] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:54] : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-07 23:03:12 INFO  [tomcat-shutdown] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:76] : Graceful shutdown complete
+2025-05-07 23:03:12 INFO  [SpringApplicationShutdownHook] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:660] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 23:03:12 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:349] : HikariPool-1 - Shutdown initiated...
+2025-05-07 23:03:12 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:351] : HikariPool-1 - Shutdown completed.
+2025-05-07 23:03:16 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:53] : Starting FxChatServerApplication using Java 20.0.2 with PID 20330 (/media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server/target/classes started by programmer in /media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server)
+2025-05-07 23:03:16 INFO  [main] -  u.l.f.FxChatServerApplication [SpringApplication.java:652] : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 23:03:17 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 23:03:17 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] : Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
+2025-05-07 23:03:17 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:111] : Tomcat initialized with port 8096 (http)
+2025-05-07 23:03:17 INFO  [main] -  o.a.catalina.core.StandardService [DirectJDKLog.java:168] : Starting service [Tomcat]
+2025-05-07 23:03:17 INFO  [main] -  o.a.catalina.core.StandardEngine [DirectJDKLog.java:168] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-07 23:03:17 INFO  [main] -  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:168] : Initializing Spring embedded WebApplicationContext
+2025-05-07 23:03:17 INFO  [main] -  o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] : Root WebApplicationContext: initialization completed in 1514 ms
+2025-05-07 23:03:17 INFO  [main] -  o.h.jpa.internal.util.LogHelper [LogHelper.java:31] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 23:03:17 INFO  [main] -  org.hibernate.Version [Version.java:44] : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 23:03:17 INFO  [main] -  o.h.c.i.RegionFactoryInitiator [RegionFactoryInitiator.java:50] : HHH000026: Second-level cache disabled
+2025-05-07 23:03:18 INFO  [main] -  o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 23:03:18 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:109] : HikariPool-1 - Starting...
+2025-05-07 23:03:18 INFO  [main] -  com.zaxxer.hikari.pool.HikariPool [HikariPool.java:554] : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7769d9b6
+2025-05-07 23:03:18 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:122] : HikariPool-1 - Start completed.
+2025-05-07 23:03:18 WARN  [main] -  org.hibernate.orm.deprecation [DialectFactoryImpl.java:153] : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 23:03:18 INFO  [main] -  o.hibernate.orm.connections.pooling [JdbcEnvironmentInitiator.java:157] : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 23:03:19 INFO  [main] -  o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:59] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 23:03:19 INFO  [main] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:447] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 23:03:19 INFO  [main] -  o.s.d.j.r.query.QueryEnhancerFactory [QueryEnhancerFactory.java:49] : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-07 23:03:20 INFO  [main] -  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [InitializeAuthenticationProviderBeanManagerConfigurer.java:80] : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-07 23:03:20 WARN  [main] -  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [InitializeUserDetailsBeanManagerConfigurer.java:73] : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-05-07 23:03:20 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:366] : 18 mappings in 'requestMappingHandlerMapping'
+2025-05-07 23:03:20 DEBUG [main] -  o.s.w.s.h.SimpleUrlHandlerMapping [SimpleUrlHandlerMapping.java:187] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-07 23:03:20 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:666] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-07 23:03:20 DEBUG [main] -  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:336] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-07 23:03:20 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:243] : Tomcat started on port 8096 (http) with context path '/'
+2025-05-07 23:03:20 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:59] : Started FxChatServerApplication in 5.061 seconds (process running for 5.575)
+2025-05-07 23:03:22 INFO  [http-nio-8096-exec-1] -  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:168] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-07 23:03:22 INFO  [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:532] : Initializing Servlet 'dispatcherServlet'
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:533] : Detected StandardServletMultipartResolver
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:557] : Detected AcceptHeaderLocaleResolver
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:583] : Detected FixedThemeResolver
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:733] : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@38568876
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:797] : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4512f5f1
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:549] : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-05-07 23:03:22 INFO  [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:554] : Completed initialization in 4 ms
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [LogFormatUtils.java:120] : POST "/fx-chat/user/registration", parameters={}
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:533] : Mapped to uz.lb.fxchatserver.controller.UserController#createUser(UserPayload)
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor [LogFormatUtils.java:120] : Read "application/json;charset=UTF-8" to [UserPayload(login=Nurislom, password=null)]
+2025-05-07 23:03:22 WARN  [http-nio-8096-exec-1] -  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:145] : SQL Error: 0, SQLState: 23502
+2025-05-07 23:03:22 ERROR [http-nio-8096-exec-1] -  o.h.e.jdbc.spi.SqlExceptionHelper [SqlExceptionHelper.java:150] : ERROR: null value in column "password" of relation "account" violates not-null constraint
+  Detail: Failing row contains (t, 2025-05-07 23:03:22.527, 1, 2025-05-07 23:03:22.527, Nurislom, null, ROLE_USER, ACTIVE).
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:459] : Using @ExceptionHandler uz.lb.fxchatserver.controller.ExceptionHandlerController#handler(RuntimeException)
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:310] : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:120] : Writing [ResultDTO(message=error, status=false, data=null, e=could not execute statement [ERROR: null value i (truncated)...]
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:186] : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: null value in column "password" of relation "account" violates not-null constraint<EOL>  Detail: Failing row contains (t, 2025-05-07 23:03:22.527, 1, 2025-05-07 23:03:22.527, Nurislom, null, ROLE_USER, ACTIVE).] [insert into account (created_at,login,password,roles,status,updated_at,visible) values (?,?,?,?,?,?,?)]; SQL [insert into account (created_at,login,password,roles,status,updated_at,visible) values (?,?,?,?,?,?,?)]; constraint [password" of relation "account]]
+2025-05-07 23:03:22 DEBUG [http-nio-8096-exec-1] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:1138] : Completed 500 INTERNAL_SERVER_ERROR
+2025-05-07 23:03:39 DEBUG [http-nio-8096-exec-4] -  o.s.web.servlet.DispatcherServlet [LogFormatUtils.java:120] : POST "/fx-chat/user/registration", parameters={}
+2025-05-07 23:03:39 DEBUG [http-nio-8096-exec-4] -  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:533] : Mapped to uz.lb.fxchatserver.controller.UserController#createUser(UserPayload)
+2025-05-07 23:03:39 DEBUG [http-nio-8096-exec-4] -  o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor [LogFormatUtils.java:120] : Read "application/json;charset=UTF-8" to [UserPayload(login=Nurislom, password=kerak)]
+2025-05-07 23:03:39 DEBUG [http-nio-8096-exec-4] -  o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:310] : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-07 23:03:39 DEBUG [http-nio-8096-exec-4] -  o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:120] : Writing [ResultDTO(message=success, status=true, data=User(id=2, login=Nurislom, password=kerak, role=ROLE_US (truncated)...]
+2025-05-07 23:03:39 DEBUG [http-nio-8096-exec-4] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:1138] : Completed 200 OK
+2025-05-07 23:14:26 INFO  [SpringApplicationShutdownHook] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:54] : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-07 23:14:26 INFO  [tomcat-shutdown] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:76] : Graceful shutdown complete
+2025-05-07 23:14:26 INFO  [SpringApplicationShutdownHook] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:660] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 23:14:26 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:349] : HikariPool-1 - Shutdown initiated...
+2025-05-07 23:14:26 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:351] : HikariPool-1 - Shutdown completed.
+2025-05-07 23:14:31 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:53] : Starting FxChatServerApplication using Java 20.0.2 with PID 20930 (/media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server/target/classes started by programmer in /media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server)
+2025-05-07 23:14:31 INFO  [main] -  u.l.f.FxChatServerApplication [SpringApplication.java:652] : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 23:14:32 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 23:14:32 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2025-05-07 23:14:32 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:111] : Tomcat initialized with port 8096 (http)
+2025-05-07 23:14:32 INFO  [main] -  o.a.catalina.core.StandardService [DirectJDKLog.java:168] : Starting service [Tomcat]
+2025-05-07 23:14:32 INFO  [main] -  o.a.catalina.core.StandardEngine [DirectJDKLog.java:168] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-07 23:14:32 INFO  [main] -  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:168] : Initializing Spring embedded WebApplicationContext
+2025-05-07 23:14:32 INFO  [main] -  o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] : Root WebApplicationContext: initialization completed in 1344 ms
+2025-05-07 23:14:33 INFO  [main] -  o.h.jpa.internal.util.LogHelper [LogHelper.java:31] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 23:14:33 INFO  [main] -  org.hibernate.Version [Version.java:44] : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 23:14:33 INFO  [main] -  o.h.c.i.RegionFactoryInitiator [RegionFactoryInitiator.java:50] : HHH000026: Second-level cache disabled
+2025-05-07 23:14:33 INFO  [main] -  o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 23:14:33 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:109] : HikariPool-1 - Starting...
+2025-05-07 23:14:33 INFO  [main] -  com.zaxxer.hikari.pool.HikariPool [HikariPool.java:554] : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@315cf170
+2025-05-07 23:14:33 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:122] : HikariPool-1 - Start completed.
+2025-05-07 23:14:34 WARN  [main] -  org.hibernate.orm.deprecation [DialectFactoryImpl.java:153] : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 23:14:34 INFO  [main] -  o.hibernate.orm.connections.pooling [JdbcEnvironmentInitiator.java:157] : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 23:14:35 INFO  [main] -  o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:59] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 23:14:35 INFO  [main] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:447] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 23:14:36 INFO  [main] -  o.s.d.j.r.query.QueryEnhancerFactory [QueryEnhancerFactory.java:49] : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-07 23:14:36 INFO  [main] -  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [InitializeAuthenticationProviderBeanManagerConfigurer.java:80] : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-07 23:14:36 WARN  [main] -  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [InitializeUserDetailsBeanManagerConfigurer.java:73] : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-05-07 23:14:36 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:366] : 18 mappings in 'requestMappingHandlerMapping'
+2025-05-07 23:14:36 DEBUG [main] -  o.s.w.s.h.SimpleUrlHandlerMapping [SimpleUrlHandlerMapping.java:187] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-07 23:14:37 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:666] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-07 23:14:37 DEBUG [main] -  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:336] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-07 23:14:37 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:243] : Tomcat started on port 8096 (http) with context path '/'
+2025-05-07 23:14:37 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:59] : Started FxChatServerApplication in 6.39 seconds (process running for 7.115)
+2025-05-07 23:15:43 INFO  [SpringApplicationShutdownHook] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:54] : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-07 23:15:43 INFO  [tomcat-shutdown] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:76] : Graceful shutdown complete
+2025-05-07 23:15:43 INFO  [SpringApplicationShutdownHook] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:660] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 23:15:43 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:349] : HikariPool-1 - Shutdown initiated...
+2025-05-07 23:15:43 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:351] : HikariPool-1 - Shutdown completed.
+2025-05-07 23:15:46 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:53] : Starting FxChatServerApplication using Java 20.0.2 with PID 21210 (/media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server/target/classes started by programmer in /media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server)
+2025-05-07 23:15:46 INFO  [main] -  u.l.f.FxChatServerApplication [SpringApplication.java:652] : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 23:15:46 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 23:15:46 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] : Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2025-05-07 23:15:47 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:111] : Tomcat initialized with port 8096 (http)
+2025-05-07 23:15:47 INFO  [main] -  o.a.catalina.core.StandardService [DirectJDKLog.java:168] : Starting service [Tomcat]
+2025-05-07 23:15:47 INFO  [main] -  o.a.catalina.core.StandardEngine [DirectJDKLog.java:168] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-07 23:15:47 INFO  [main] -  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:168] : Initializing Spring embedded WebApplicationContext
+2025-05-07 23:15:47 INFO  [main] -  o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] : Root WebApplicationContext: initialization completed in 1294 ms
+2025-05-07 23:15:47 INFO  [main] -  o.h.jpa.internal.util.LogHelper [LogHelper.java:31] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 23:15:47 INFO  [main] -  org.hibernate.Version [Version.java:44] : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 23:15:47 INFO  [main] -  o.h.c.i.RegionFactoryInitiator [RegionFactoryInitiator.java:50] : HHH000026: Second-level cache disabled
+2025-05-07 23:15:47 INFO  [main] -  o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 23:15:47 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:109] : HikariPool-1 - Starting...
+2025-05-07 23:15:48 INFO  [main] -  com.zaxxer.hikari.pool.HikariPool [HikariPool.java:554] : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ca0b9b1
+2025-05-07 23:15:48 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:122] : HikariPool-1 - Start completed.
+2025-05-07 23:15:48 WARN  [main] -  org.hibernate.orm.deprecation [DialectFactoryImpl.java:153] : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 23:15:48 INFO  [main] -  o.hibernate.orm.connections.pooling [JdbcEnvironmentInitiator.java:157] : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 23:15:49 INFO  [main] -  o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:59] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 23:15:49 INFO  [main] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:447] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 23:15:49 INFO  [main] -  o.s.d.j.r.query.QueryEnhancerFactory [QueryEnhancerFactory.java:49] : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-07 23:15:49 INFO  [main] -  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [InitializeAuthenticationProviderBeanManagerConfigurer.java:80] : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-07 23:15:49 WARN  [main] -  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [InitializeUserDetailsBeanManagerConfigurer.java:73] : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-05-07 23:15:49 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:366] : 18 mappings in 'requestMappingHandlerMapping'
+2025-05-07 23:15:49 DEBUG [main] -  o.s.w.s.h.SimpleUrlHandlerMapping [SimpleUrlHandlerMapping.java:187] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-07 23:15:49 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:666] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-07 23:15:49 DEBUG [main] -  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:336] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-07 23:15:50 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:243] : Tomcat started on port 8096 (http) with context path '/'
+2025-05-07 23:15:50 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:59] : Started FxChatServerApplication in 4.329 seconds (process running for 5.026)
+2025-05-07 23:16:00 INFO  [http-nio-8096-exec-2] -  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:168] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-07 23:16:00 INFO  [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:532] : Initializing Servlet 'dispatcherServlet'
+2025-05-07 23:16:00 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:533] : Detected StandardServletMultipartResolver
+2025-05-07 23:16:00 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:557] : Detected AcceptHeaderLocaleResolver
+2025-05-07 23:16:00 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:583] : Detected FixedThemeResolver
+2025-05-07 23:16:00 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:733] : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7305a443
+2025-05-07 23:16:00 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [DispatcherServlet.java:797] : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6c4c32ff
+2025-05-07 23:16:00 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:549] : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-05-07 23:16:00 INFO  [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:554] : Completed initialization in 8 ms
+2025-05-07 23:16:00 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [LogFormatUtils.java:120] : POST "/fx-chat/user/registration", parameters={}
+2025-05-07 23:16:00 DEBUG [http-nio-8096-exec-2] -  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:533] : Mapped to uz.lb.fxchatserver.controller.UserController#createUser(UserPayload)
+2025-05-07 23:16:00 DEBUG [http-nio-8096-exec-2] -  o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor [LogFormatUtils.java:120] : Read "application/json;charset=UTF-8" to [UserPayload(login=User, password=123)]
+2025-05-07 23:16:01 DEBUG [http-nio-8096-exec-2] -  o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:310] : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-07 23:16:01 DEBUG [http-nio-8096-exec-2] -  o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:120] : Writing [ResultDTO(message=success, status=true, data=User(id=1, login=User, password=a665a45920422f9d417e486 (truncated)...]
+2025-05-07 23:16:01 DEBUG [http-nio-8096-exec-2] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:1138] : Completed 200 OK
+2025-05-07 23:16:28 DEBUG [http-nio-8096-exec-3] -  o.s.web.servlet.DispatcherServlet [LogFormatUtils.java:120] : POST "/fx-chat/auth", parameters={}
+2025-05-07 23:16:28 DEBUG [http-nio-8096-exec-3] -  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:533] : Mapped to uz.lb.fxchatserver.controller.AuthController#authorization(AuthRequestDTO)
+2025-05-07 23:16:28 DEBUG [http-nio-8096-exec-3] -  o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor [LogFormatUtils.java:120] : Read "application/json;charset=UTF-8" to [AuthRequestDTO(login=User, password=123)]
+2025-05-07 23:16:28 DEBUG [http-nio-8096-exec-3] -  o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:310] : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-05-07 23:16:28 DEBUG [http-nio-8096-exec-3] -  o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:120] : Writing [ResultDTO(message=success, status=true, data=AuthResponseDTO(login=User, role=ROLE_USER, status=ACTI (truncated)...]
+2025-05-07 23:16:28 DEBUG [http-nio-8096-exec-3] -  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java:1138] : Completed 200 OK
+2025-05-07 23:28:48 INFO  [SpringApplicationShutdownHook] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:54] : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-07 23:28:48 INFO  [tomcat-shutdown] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:76] : Graceful shutdown complete
+2025-05-07 23:28:48 INFO  [SpringApplicationShutdownHook] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:660] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 23:28:48 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:349] : HikariPool-1 - Shutdown initiated...
+2025-05-07 23:28:48 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:351] : HikariPool-1 - Shutdown completed.
+2025-05-07 23:58:38 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:53] : Starting FxChatServerApplication using Java 20.0.2 with PID 25345 (/media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server/target/classes started by programmer in /media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server)
+2025-05-07 23:58:38 INFO  [main] -  u.l.f.FxChatServerApplication [SpringApplication.java:652] : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 23:58:38 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 23:58:38 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] : Finished Spring Data repository scanning in 38 ms. Found 3 JPA repository interfaces.
+2025-05-07 23:58:39 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:111] : Tomcat initialized with port 8096 (http)
+2025-05-07 23:58:39 INFO  [main] -  o.a.catalina.core.StandardService [DirectJDKLog.java:168] : Starting service [Tomcat]
+2025-05-07 23:58:39 INFO  [main] -  o.a.catalina.core.StandardEngine [DirectJDKLog.java:168] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-07 23:58:39 INFO  [main] -  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:168] : Initializing Spring embedded WebApplicationContext
+2025-05-07 23:58:39 INFO  [main] -  o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] : Root WebApplicationContext: initialization completed in 1146 ms
+2025-05-07 23:58:39 INFO  [main] -  o.h.jpa.internal.util.LogHelper [LogHelper.java:31] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 23:58:39 INFO  [main] -  org.hibernate.Version [Version.java:44] : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 23:58:39 INFO  [main] -  o.h.c.i.RegionFactoryInitiator [RegionFactoryInitiator.java:50] : HHH000026: Second-level cache disabled
+2025-05-07 23:58:39 INFO  [main] -  o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 23:58:39 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:109] : HikariPool-1 - Starting...
+2025-05-07 23:58:40 INFO  [main] -  com.zaxxer.hikari.pool.HikariPool [HikariPool.java:554] : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69ba72da
+2025-05-07 23:58:40 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:122] : HikariPool-1 - Start completed.
+2025-05-07 23:58:40 WARN  [main] -  org.hibernate.orm.deprecation [DialectFactoryImpl.java:153] : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 23:58:40 INFO  [main] -  o.hibernate.orm.connections.pooling [JdbcEnvironmentInitiator.java:157] : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 23:58:40 ERROR [main] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:436] : Failed to initialize JPA EntityManagerFactory: Property 'uz.lb.fxchatserver.entity.Group.user' is a '@ManyToMany' and is directly annotated '@JoinColumn' (specify '@JoinColumn' inside '@JoinTable' or '@CollectionTable')
+2025-05-07 23:58:40 ERROR [main] -  o.s.b.w.e.tomcat.TomcatStarter [TomcatStarter.java:60] : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'customUserDetailsService' defined in file [/media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server/target/classes/uz/lb/fxchatserver/config/CustomUserDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userRepository' defined in uz.lb.fxchatserver.repository.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+2025-05-07 23:58:40 INFO  [main] -  o.a.catalina.core.StandardService [DirectJDKLog.java:168] : Stopping service [Tomcat]
+2025-05-07 23:58:40 WARN  [main] -  o.a.c.loader.WebappClassLoaderBase [DirectJDKLog.java:168] : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+2025-05-07 23:58:40 WARN  [main] -  o.a.c.loader.WebappClassLoaderBase [DirectJDKLog.java:168] : The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:484)
+ com.zaxxer.hikari.util.UtilityElf.quietlySleep(UtilityElf.java:53)
+ com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:729)
+ com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+ java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+2025-05-07 23:58:40 WARN  [main] -  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:635] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2025-05-07 23:58:40 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:349] : HikariPool-1 - Shutdown initiated...
+2025-05-07 23:58:40 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:351] : HikariPool-1 - Shutdown completed.
+2025-05-07 23:58:40 INFO  [main] -  o.s.b.a.l.ConditionEvaluationReportLogger [ConditionEvaluationReportLogger.java:82] : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-07 23:58:40 ERROR [main] -  o.s.boot.SpringApplication [SpringApplication.java:858] : Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at uz.lb.fxchatserver.FxChatServerApplication.main(FxChatServerApplication.java:9)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:517)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:219)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'userDetailsService': Error creating bean with name 'customUserDetailsService' defined in file [/media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server/target/classes/uz/lb/fxchatserver/config/CustomUserDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userRepository' defined in uz.lb.fxchatserver.repository.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:271)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:245)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4464)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:438)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customUserDetailsService' defined in file [/media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server/target/classes/uz/lb/fxchatserver/config/CustomUserDetailsService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userRepository' defined in uz.lb.fxchatserver.repository.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1387)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1224)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1739)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1627)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 55 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in uz.lb.fxchatserver.repository.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1717)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1466)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1681)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 68 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaSharedEM_entityManagerFactory': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:691)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1367)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 81 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Property 'uz.lb.fxchatserver.entity.Group.user' is a '@ManyToMany' and is directly annotated '@JoinColumn' (specify '@JoinColumn' inside '@JoinTable' or '@CollectionTable')
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 93 common frames omitted
+Caused by: org.hibernate.AnnotationException: Property 'uz.lb.fxchatserver.entity.Group.user' is a '@ManyToMany' and is directly annotated '@JoinColumn' (specify '@JoinColumn' inside '@JoinTable' or '@CollectionTable')
+	at org.hibernate.boot.model.internal.CollectionBinder.checkAnnotations(CollectionBinder.java:450)
+	at org.hibernate.boot.model.internal.CollectionBinder.bindCollection(CollectionBinder.java:282)
+	at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:897)
+	at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:811)
+	at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:732)
+	at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:1088)
+	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:419)
+	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:251)
+	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:401)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:257)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:281)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:324)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814)
+	... 100 common frames omitted
+2025-05-07 23:59:14 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:53] : Starting FxChatServerApplication using Java 20.0.2 with PID 25486 (/media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server/target/classes started by programmer in /media/programmer/160 gb/E disk/1. Java/Chat/FXChat-server)
+2025-05-07 23:59:14 INFO  [main] -  u.l.f.FxChatServerApplication [SpringApplication.java:652] : No active profile set, falling back to 1 default profile: "default"
+2025-05-07 23:59:14 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:143] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-07 23:59:14 INFO  [main] -  o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:211] : Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2025-05-07 23:59:15 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:111] : Tomcat initialized with port 8096 (http)
+2025-05-07 23:59:15 INFO  [main] -  o.a.catalina.core.StandardService [DirectJDKLog.java:168] : Starting service [Tomcat]
+2025-05-07 23:59:15 INFO  [main] -  o.a.catalina.core.StandardEngine [DirectJDKLog.java:168] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-07 23:59:15 INFO  [main] -  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java:168] : Initializing Spring embedded WebApplicationContext
+2025-05-07 23:59:15 INFO  [main] -  o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:301] : Root WebApplicationContext: initialization completed in 1010 ms
+2025-05-07 23:59:15 INFO  [main] -  o.h.jpa.internal.util.LogHelper [LogHelper.java:31] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-07 23:59:15 INFO  [main] -  org.hibernate.Version [Version.java:44] : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-07 23:59:15 INFO  [main] -  o.h.c.i.RegionFactoryInitiator [RegionFactoryInitiator.java:50] : HHH000026: Second-level cache disabled
+2025-05-07 23:59:15 INFO  [main] -  o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-07 23:59:15 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:109] : HikariPool-1 - Starting...
+2025-05-07 23:59:15 INFO  [main] -  com.zaxxer.hikari.pool.HikariPool [HikariPool.java:554] : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@37806be6
+2025-05-07 23:59:15 INFO  [main] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:122] : HikariPool-1 - Start completed.
+2025-05-07 23:59:15 WARN  [main] -  org.hibernate.orm.deprecation [DialectFactoryImpl.java:153] : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-07 23:59:15 INFO  [main] -  o.hibernate.orm.connections.pooling [JdbcEnvironmentInitiator.java:157] : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-07 23:59:16 INFO  [main] -  o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:59] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-07 23:59:16 INFO  [main] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:447] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 23:59:16 INFO  [main] -  o.s.d.j.r.query.QueryEnhancerFactory [QueryEnhancerFactory.java:49] : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-05-07 23:59:16 INFO  [main] -  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer [InitializeAuthenticationProviderBeanManagerConfigurer.java:80] : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-05-07 23:59:16 WARN  [main] -  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [InitializeUserDetailsBeanManagerConfigurer.java:73] : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-05-07 23:59:17 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:366] : 18 mappings in 'requestMappingHandlerMapping'
+2025-05-07 23:59:17 DEBUG [main] -  o.s.w.s.h.SimpleUrlHandlerMapping [SimpleUrlHandlerMapping.java:187] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-07 23:59:17 DEBUG [main] -  o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:666] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-05-07 23:59:17 DEBUG [main] -  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java:336] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-05-07 23:59:17 INFO  [main] -  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java:243] : Tomcat started on port 8096 (http) with context path '/'
+2025-05-07 23:59:17 INFO  [main] -  u.l.f.FxChatServerApplication [StartupInfoLogger.java:59] : Started FxChatServerApplication in 4.087 seconds (process running for 4.643)
+2025-05-07 23:59:50 INFO  [SpringApplicationShutdownHook] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:54] : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-07 23:59:50 INFO  [tomcat-shutdown] -  o.s.b.w.e.tomcat.GracefulShutdown [GracefulShutdown.java:76] : Graceful shutdown complete
+2025-05-07 23:59:50 INFO  [SpringApplicationShutdownHook] -  o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:660] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-07 23:59:50 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:349] : HikariPool-1 - Shutdown initiated...
+2025-05-07 23:59:50 INFO  [SpringApplicationShutdownHook] -  com.zaxxer.hikari.HikariDataSource [HikariDataSource.java:351] : HikariPool-1 - Shutdown completed.

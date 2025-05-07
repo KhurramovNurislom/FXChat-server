@@ -10,7 +10,7 @@ import uz.lb.fxchatserver.service.implement.UserService;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/server/user")
+@RequestMapping("/fx-chat/user")
 public class UserController {
 
     private final UserService userService;
